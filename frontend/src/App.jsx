@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-const apiUrl = import.meta.env.VITE_API_URL || "";
+  const apiUrl = "https://automation-oa62.onrender.com";
 
 function App() {
   const [url, setUrl] = useState("");
